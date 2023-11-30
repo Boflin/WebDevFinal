@@ -5,28 +5,29 @@
     *****************************************
     *               COLOR SCHEME            *
     *****************************************
-    Color 1: 
+    Color 1:
     French Grey 777992
 
-    Color 2: 
+    Color 2:
     purple grey 8488c2
 
     COlor 3:
     purple 5a58da
 
-    Color 4: 
+    Color 4:
     Med Purple 0f0b83
 
-    Color 5: 
+    Color 5:
     Black 000500
 */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto:wght@100;400&display=swap');
 
-* { 
+* {
 
     font-family: 'roboto';
     text-align: start;
     border: none;
+    background-color: #000500;
 }
 
 .col {
@@ -35,13 +36,16 @@
 
 
 .card-body {
-    margin-top: 0;
-    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 250px;
+    width: auto;
+
 }
 
 .card-body > p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
     margin-top: 15px;
     justify-content: center;
 }
@@ -68,7 +72,7 @@ ol {
     justify-content: space-between;
     height: auto;
     width: auto;
-    
+
 }
 
 .border {
@@ -81,5 +85,9 @@ li {
     font-size: 1.2em;
 }
 span {
+    color: #9B9ECE;
+}
+
+.navbar-brand {
     color: #9B9ECE;
 }

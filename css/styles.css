@@ -23,6 +23,11 @@
     Black 000500
 */
 
-body {
-    background-color: rgb(51, 49, 49);
+
+/* this imports the font named Roboto - and sets it to all elements using * */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto:wght@100;400&display=swap');
+
+* {
+
+    font-family: 'roboto';
 }
