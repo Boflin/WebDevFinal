@@ -5,33 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <title>Your Website</title>
+  <style>
+    hr {
+      size: 50%;
+    }
+  </style>
+
 </head>
 <body>
 
-<div class="container-fluid">
-  <div class="row">
-    <!-- Profile Card (8 columns) -->
-    <div class="col-md-8">
-      <!-- Your profile card content goes here -->
-      <div class="card">
-        <div class="card-body">
-          <!-- Your profile content -->
-        </div>
-      </div>
-    </div>
+<hr size="100%" color="red" width="20000">
 
-    <!-- Friends List (4 columns) -->
-    <div class="col-md-4">
-      <!-- Your friends list content goes here -->
-      <div class="card">
-        <div class="card-body">
-          <!-- Your friends list content -->
+
+
+<script>
+  function changeBGColor(color) {
+    document.body.style.background = color;
+  }
+
+</script>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
         </div>
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <input type="text" class="form-control" id="comment" placeholder="Enter your comment">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="textarea">Comments:</label>
+        <textarea class="form-control" id="textarea" rows="5" placeholder="Your comments go here..."></textarea>
       </div>
     </div>
   </div>
 </div>
 
+
+
+
+
+
+
+
+  <button onclick="changeBGColor('red')">RED </button>
 <!-- Bootstrap JS and dependencies (you may need to adjust versions based on your preference) -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
